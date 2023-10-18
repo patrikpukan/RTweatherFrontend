@@ -1,3 +1,4 @@
+import
 import { useState } from 'react'
 import './App.css'
 
@@ -7,7 +8,13 @@ function App() {
   return (
     <>
       <p>Current weather in x is x.</p>
+      <container>
+        <LeftPanel />
+        <CentralPanel />
+        <RightPanel /> 
+      </container>
     </>
+
   )
 }
 
