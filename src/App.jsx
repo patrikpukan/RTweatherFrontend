@@ -1,6 +1,4 @@
-import
 import { useState } from 'react'
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +6,7 @@ function App() {
   return (
     <>
       <p>Current weather in x is x.</p>
-      <container>
+      <container className="flex">
         <LeftPanel />
         <CentralPanel />
         <RightPanel /> 
