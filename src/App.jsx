@@ -1,7 +1,7 @@
 import React from 'react'
-import LeftPanel from './components/LeftPanel.jsx'
-import CentralPanel from './components/CentralPanel.jsx'
-import RightPanel from './components/RightPanel.jsx'
+import LeftPanel from './panels/LeftPanel.jsx'
+// import CentralPanel from './panels/CentralPanel.jsx'
+// import RightPanel from './panels/RightPanel.jsx'
 
 //import 'styles.css'
 //import 'App.css'
@@ -12,15 +12,12 @@ function App() {
     <>
     <div>      
       <p>Current weather in x is x.</p>
+      <LeftPanel />
     </div>
-      {/* <container className="flex">
-        <p> Hello World</p>
-        <p> Hello 2 </p>
-        <p> Hello 3</p>
-      </container> */}
+      
     </>
 
   )
 }
 
-export default App
+export default App;
