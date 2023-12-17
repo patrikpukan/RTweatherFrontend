@@ -33,7 +33,7 @@ function LeftPanel() {
   const maxLengthOfArray = 4;
 
     return (
-        <>
+        <div>
         <div className="">
             <h1>Left Panel</h1>
         </div>
@@ -41,7 +41,7 @@ function LeftPanel() {
         <SearchButton onClick={onSearchButtonClick} />
         {arrayOfCities.map((city, index) => <CityCard key={index} city={city} />)}
 
-        </>
+        </div>
         
     )
 
