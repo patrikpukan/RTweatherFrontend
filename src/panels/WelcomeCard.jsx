@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function WelcomeCard() {
   return (
@@ -6,6 +6,6 @@ function WelcomeCard() {
       <p>Welcome user</p>
     </div>
   );
-};
+}
 
 export default WelcomeCard;
