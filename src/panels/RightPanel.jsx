@@ -20,6 +20,8 @@ function RightPanel({ currentCity }) {
     Rain: rainImage,
     Storm: stormImage,
     Fog: cloudImage,
+    Mist: cloudImage,
+
     // add more as necessary
   };
 

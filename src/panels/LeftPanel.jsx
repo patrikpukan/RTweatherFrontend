@@ -63,31 +63,7 @@ function LeftPanel({
     // Update favoriteCity in the state
     setFavoriteCity(currentCity);
     userObject.favoriteCity = currentCity;
-    // Send a PUT request to the backend
-    // fetch(`http://localhost:8080/api/appUser/${userObject.id}`, {
-    //   method: "PUT",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({
-    //     id: userObject.id,
-    //     username: userObject.username,
-    //     password: userObject.password,
-    //     favoriteCity: userObject.favoriteCity,
-    //   }),
-    // })
-    //   .then((response) => {
-    //     if (!response.ok) {
-    //       throw new Error(`HTTP error! status: ${response.status}`);
-    //     }
-    //     return response.text();
-    //   })
-    //   .then((data) => {
-    //     console.log("Success:", data);
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error:", error);
-    //   });
+  
     const queryParams = new URLSearchParams({
       username: userObject.username,
       password: userObject.password,
